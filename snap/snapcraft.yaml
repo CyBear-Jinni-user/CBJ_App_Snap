@@ -1,0 +1,19 @@
+name: cybear-jinni
+version: '1.0'
+summary: App to controll your smart device through CyBear Jinni Hub
+description: Single app to controll smart device from different form factor through CyBear Jinni Hub
+
+confinement: devmode
+
+base: core18
+
+parts:
+  cybear-jinni:
+    plugin: flutter
+    source: https://github.com/CyBear-Jinni/CBJ_App.git
+    flutter-target: lib/main.dart
+
+apps:
+  cybear-jinni:
+    command: cybear-jinni
+    extensions: [flutter-dev]
