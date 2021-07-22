@@ -1,7 +1,7 @@
 name: cybear-jinni
 version: '1.0'
-summary: App to controll your smart device through CyBear Jinni Hub
-description: Single app to controll smart device from different form factor through CyBear Jinni Hub
+summary: App to control your smart device through CyBear Jinni Hub
+description: Single app to control smart device from different form factor through CyBear Jinni Hub
 
 confinement: devmode
 
@@ -15,5 +15,5 @@ parts:
 
 apps:
   cybear-jinni:
-    command: cybear-jinni
-    extensions: [flutter-dev]
+    command: cybear_jinni
+    extensions: [flutter-master]
