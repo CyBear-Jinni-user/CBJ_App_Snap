@@ -7,6 +7,10 @@ confinement: devmode
 
 base: core18
 
+architectures:
+  - build-on: amd64
+  - build-on: arm64
+
 parts:
   cybear-jinni:
     plugin: flutter
