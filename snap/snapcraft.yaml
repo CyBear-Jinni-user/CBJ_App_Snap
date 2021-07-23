@@ -24,4 +24,4 @@ parts:
 apps:
   cybear-jinni:
     command: CyBear-Jinni_App
-    extensions: [flutter-dev]
+    extensions: [flutter-master]
