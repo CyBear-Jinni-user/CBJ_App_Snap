@@ -12,6 +12,10 @@ parts:
     plugin: flutter
     source: https://github.com/CyBear-Jinni/CBJ_App.git
     flutter-target: lib/main.dart
+    override-build: |
+      flutter pub get
+      flutter pub run build_runner build --delete-conflicting-outputs
+      snapcraftctl build
 
 apps:
   cybear-jinni:
