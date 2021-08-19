@@ -27,4 +27,4 @@ apps:
   cybear-jinni:
     command: CyBear-Jinni_App
     extensions: [flutter-master]
-    plugs: [network, network-bind, network-manager, unity7]
+    plugs: [network, network-bind, network-manager]
