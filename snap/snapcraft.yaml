@@ -1,8 +1,25 @@
 name: cybear-jinni
 version: '1.0'
 summary: App to control your smart device through CyBear Jinni Hub
-description: Single app to control smart device from different form factor through CyBear Jinni Hub
+description: |
+  A single app to control smart devices from different form factors through CyBear Jinni Hub.
 
+  CyBear Jinni app was created with the focus to be easy to use.
+
+  Supported smart devices in the local network will automatically get add to your app for you to control.
+
+  The app is also available for android
+
+  https://play.google.com/store/apps/details?id=com.cybear_jinni.smart_home
+
+  You can install the CyBear Jinni Hub from here
+
+  https://snapcraft.io/cbj-hub
+
+  This snap is using the network observe plugin in order to discover automatically the CyBear Jinni Hub.
+
+
+  If you have any questions you can ask in the CyBear Jinni discord server https://discord.gg/mUXfwUY.
 grade: stable  # devel/stable, must be 'stable' to release into candidate/stable channels
 confinement: strict  # devmode/classic/strict, use 'strict' once you have the right plugs and slots
 
