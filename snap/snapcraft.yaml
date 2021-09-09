@@ -37,14 +37,14 @@ parts:
     flutter-target: lib/main.dart
     override-build: |
       flutter clean
+      rm -rf build
+      rm -rf linux/flutter/ephemeral/
       flutter pub get
       flutter pub run build_runner build --delete-conflicting-outputs
-      rm -rf build
-      rm -r linux/flutter/ephemeral/
       snapcraftctl build
 
 apps:
   cybear-jinni:
     command: CyBear-Jinni_App
-    extensions: [flutter-master]
+    extensions: [flutter-stable]
     plugs: [network, network-bind, network-manager-observe, desktop-legacy, unity7]
