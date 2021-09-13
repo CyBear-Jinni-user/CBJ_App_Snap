@@ -1,5 +1,5 @@
 name: cybear-jinni
-version: '1.2'
+version: '1.3'
 summary: App to control your smart device through CyBear Jinni Hub
 description: |
   A single app to control smart devices from different form factors through CyBear Jinni Hub.
@@ -47,4 +47,4 @@ apps:
   cybear-jinni:
     command: CyBear-Jinni_App
     extensions: [flutter-stable]
-    plugs: [network, network-bind, network-manager-observe, desktop-legacy, unity7]
+    plugs: [network, network-bind, network-manager, network-manager-observe, desktop-legacy, unity7]
