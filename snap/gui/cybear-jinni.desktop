@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=cybear-jinni
+Name=CyBear Jinni
 Comment=App to control your smart device through CyBear Jinni Hub
 Exec=cybear-jinni
 Icon=${SNAP}/meta/gui/icon.png
