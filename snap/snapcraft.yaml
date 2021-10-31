@@ -45,6 +45,6 @@ parts:
 
 apps:
   cybear-jinni:
-    command: CyBear-Jinni_App
+    command: CyBear-Jinni_App $SNAP
     extensions: [flutter-stable]
     plugs: [network, network-bind, network-manager, network-manager-observe, desktop-legacy, unity7]
