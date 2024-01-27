@@ -1,5 +1,5 @@
 name: cybear-jinni
-version: '1.4.2'
+version: '1.4.3'
 summary: App to control your smart device through CyBear Jinni Hub
 description: |
   A single app to control smart devices from different form factors through CyBear Jinni Hub.
